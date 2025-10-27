@@ -1,17 +1,40 @@
-# Oculox DrowsinessDetector
+# 🎯 Oculox Drowsiness Detector
 
-## Descripción
+[![Latest Release](https://img.shields.io/github/v/release/muracciolei/DriverDrowsinessDetector?style=for-the-badge&logo=github&logoColor=white&labelColor=2b2b2b&color=blue)](https://github.com/muracciolei/DriverDrowsinessDetector/releases/latest)
+[![Download](https://img.shields.io/github/downloads/muracciolei/DriverDrowsinessDetector/total?style=for-the-badge&logo=download&logoColor=white&labelColor=2b2b2b&color=green)](https://github.com/muracciolei/DriverDrowsinessDetector/releases/latest)
+[![License](https://img.shields.io/github/license/muracciolei/DriverDrowsinessDetector?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=2b2b2b&color=orange)](https://github.com/muracciolei/DriverDrowsinessDetector/blob/main/LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue?style=for-the-badge&logo=windows&logoColor=white&labelColor=2b2b2b)](https://github.com/muracciolei/DriverDrowsinessDetector/releases)
+
+## 📋 Descripción
 
 Sistema avanzado de detección de somnolencia para conductores utilizando análisis en tiempo real del Eye Aspect Ratio (EAR) y alertas visuales y sonoras integradas.
 
-## Características Principales
+## 🚀 Descarga Rápida
 
-- **Detección en tiempo real**: Análisis continuo del EAR usando OpenCV
-- **Alertas visuales**: Indicador de estado con colores (verde/amarillo/rojo)
-- **Alertas sonoras**: Sistema de audio integrado con QSoundEffect
-- **UI moderna**: Interfaz Qt6 responsiva y profesional
-- **Arquitectura modular**: Componentes separados y testeable
-- **Compilación multiplataforma**: Compatible Linux/Windows
+### ⬇️ **Versión Lista para Usar (Recomendada)**
+
+[![Download Release](https://img.shields.io/badge/📥%20Descargar%20v2.0.0-Listo%20para%20Usar-success?style=for-the-badge&logo=download)](https://github.com/muracciolei/DriverDrowsinessDetector/releases/download/v2.0.0/Oculox-DrowsinessDetector-v2.0.0-Windows-x64.zip)
+
+**🎯 Instalación instantánea:**
+1. **Descargar** el archivo ZIP (41.4 MB)
+2. **Extraer** todos los archivos en una carpeta
+3. **Ejecutar** `Oculox_DrowsinessDetector_StatusBar.exe`
+4. **¡Listo!** - Comienza a detectar somnolencia inmediatamente
+
+> ✅ **Sin compilación necesaria** - Todas las dependencias incluidas  
+> ✅ **Windows 10/11 compatible** - 64-bit  
+> ✅ **Completamente portable** - No requiere instalación
+
+---
+
+## ✨ Características Principales
+
+- **🎥 Detección en tiempo real**: Análisis continuo del EAR usando OpenCV 4.11.0
+- **⚠️ Alertas inteligentes**: Sistema visual (colores) y sonoro integrado
+- **🖥️ UI moderna**: Interfaz Qt6 con video en vivo a 30 FPS
+- **👁️ Precisión avanzada**: Haar Cascade para detección facial y ocular
+- **🧵 Arquitectura robusta**: Procesamiento multi-hilo y modular
+- **📦 Deployment completo**: Versión portable lista para usar
 
 ## Requisitos del Sistema
 
@@ -265,12 +288,27 @@ Si el archivo `alert.wav` no está disponible:
 2. Reducir resolución de captura si es necesario
 3. Optimizar algoritmos de detección
 
-## Estado del Proyecto
+## 🏆 Estado del Proyecto
 
 ✅ **Proyecto completamente funcional, alertas visuales y sonoras integradas, UI modernizada, recursos completos y listo para demo profesional.**
 
+## 🔗 Enlaces Importantes
+
+- **📥 Descargas**: [Releases](https://github.com/muracciolei/DriverDrowsinessDetector/releases)
+- **🐛 Reportar Issues**: [GitHub Issues](https://github.com/muracciolei/DriverDrowsinessDetector/issues)
+- **📚 Documentación**: [Wiki](https://github.com/muracciolei/DriverDrowsinessDetector/wiki)
+- **💬 Discusiones**: [GitHub Discussions](https://github.com/muracciolei/DriverDrowsinessDetector/discussions)
+
+## ⭐ ¿Te Gusta el Proyecto?
+
+Si este proyecto te ha sido útil, ¡no olvides darle una ⭐ en GitHub!
+
+[![GitHub stars](https://img.shields.io/github/stars/muracciolei/DriverDrowsinessDetector?style=social)](https://github.com/muracciolei/DriverDrowsinessDetector/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muracciolei/DriverDrowsinessDetector?style=social)](https://github.com/muracciolei/DriverDrowsinessDetector/network)
+
 ---
 
-**Versión**: 1.0.0  
-**Último update**: Octubre 2024  
-**Autor**: Equipo de desarrollo Oculox  
+**Versión**: 2.0.0  
+**Último update**: Octubre 2025  
+**Autor**: Oculox Development Team  
+**Licencia**: MIT License  

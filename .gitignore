@@ -1,0 +1,67 @@
+# Build directories
+build/
+Release/
+Debug/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.filters
+
+# Object files
+*.o
+*.obj
+*.lib
+*.dll
+*.exp
+*.pdb
+*.ilk
+
+# Executables
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package managers
+vcpkg_installed/
+
+# Logs
+*.log
